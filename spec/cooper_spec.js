@@ -1,5 +1,5 @@
 describe('CooperTest', function() {
-  describe("Female", function() {
+  describe('Test', function() {
     it("returns a result for a 30 y o female", function() {
       expect(CooperTest({
         age: 30,
