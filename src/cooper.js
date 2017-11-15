@@ -1,11 +1,9 @@
 function CooperTest(attr) {
   if (attr.gender == 'female') {
-
     if (attr.age >= 13 && attr.age <= 14) {
       if (attr.distance <= 1500) {
         return "Poor..";
-      }
-      if (attr.distance > 1500 && attr.distance <= 1599) {
+      } if (attr.distance > 1500 && attr.distance <= 1599) {
         return "Below Average";
       } else if (attr.distance >= 1600 && attr.distance <= 1899) {
         return "Average";
